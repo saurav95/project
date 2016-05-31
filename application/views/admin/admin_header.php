@@ -15,18 +15,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Articles</a>
+      <a class="navbar-brand" href="#">Admin Panel</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input class="form-control" placeholder="Search" type="text">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Login</a></li>
+        <li><?php echo anchor('login/logout', 'logout', ['class' => 'logout']) ?></li>
       </ul>
     </div>
   </div>

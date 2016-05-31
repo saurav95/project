@@ -1,8 +1,8 @@
-<?php include('admin_header.php'); ?>
+<?php include('public_header.php'); ?>
 
 <div class="container">
 
-<?php echo form_open('admin/admin_login' , ['class' => "form-horizontal" ]); ?>
+<?php echo form_open('login/admin_login' , ['class' => "form-horizontal" ]); ?>
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
     <div class="col-sm-10">
@@ -28,4 +28,4 @@
 
 
 </div>
-<?php include('admin_footer.php'); ?>
+<?php include('public_footer.php'); ?>
